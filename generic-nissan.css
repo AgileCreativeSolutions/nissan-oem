@@ -1,37 +1,36 @@
 /* Font */
 @font-face {
-font-family: 'Nissan Brand Light';
-src: url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Light.eot');
-src: url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Light.eot?#iefix') format('embedded-opentype'),
-url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Light.woff') format('woff'),
-url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Light.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+    font-family: "nissan-light";
+    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.eot");
+    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.eot?#iefix") format("embedded-opentype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.ttf") format("truetype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.woff") format("woff"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.woff2") format("woff2"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.svg") format("svg");
+    font-weight: 300;
+    font-style: normal;
 }
-
 @font-face {
-font-family: 'Nissan Brand Regular';
-src: url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Regular.eot');
-src: url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Regular.eot?#iefix') format('embedded-opentype'),
-url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Regular.woff') format('woff'),
-url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Regular.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+    font-family: "nissan-brand-regular";
+    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.eot");
+    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.eot?#iefix") format("embedded-opentype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.ttf") format("truetype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.woff") format("woff"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.woff2") format("woff2"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.svg") format("svg");
+    font-weight: 300;
+    font-style: normal;
 }
-
 @font-face {
-font-family: 'Nissan Brand Bold';
-src: url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Bold.eot');
-src: url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Bold.eot?#iefix') format('embedded-opentype'),
-url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Bold.woff') format('woff'),
-url('https://fontsfree.pro/templates/fonts/download/NissanBrand/NissanBrand-Bold.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+    font-family: "nissan-regular";
+    src: url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.eot");
+    src: url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.eot?#iefix") format("embedded-opentype"), url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.ttf") format("truetype"), url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.woff") format("woff"), url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.woff2") format("woff2"), url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.svg") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "nissan-bold";
+    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.eot");
+    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.eot?#iefix") format("embedded-opentype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.ttf") format("truetype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.woff") format("woff"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.woff2") format("woff2"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.svg") format("svg");
+    font-weight: 700;
+    font-style: normal;
 }
 
 
 .acs-wrapper { 
-font-family: "Nissan Brand Regular", sans-serif
+font-family: "nissan-brand-regular", sans-serif
 }
 
 .acs-bold {
@@ -53,7 +52,7 @@ font-weight: 700;
 --dark: #2d2d2d; 
 --dark2: #666666;
 --dark3: #343434;
---bold-font: "Nissan Brand Bold", sans-serif;
+--bold-font: "nissan-bold", sans-serif;
 }
 
 
