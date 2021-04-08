@@ -1,31 +1,34 @@
-/* Font */
 @font-face {
-    font-family: "nissan-light";
-    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.eot");
-    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.eot?#iefix") format("embedded-opentype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.ttf") format("truetype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.woff") format("woff"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.woff2") format("woff2"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-light/v1/webfont.svg") format("svg");
-    font-weight: 300;
-    font-style: normal;
+font-family: "nissan-light";
+src: url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Light.eot");
+src: url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Light.eot?#iefix") format("embedded-opentype"),
+url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Light.woff") format("woff"),
+url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Light.woff2") format('woff2'),
+url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Light.ttf") format("truetype");
+font-weight: 300;
+font-style:normal
 }
+
 @font-face {
-    font-family: "nissan-brand-regular";
-    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.eot");
-    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.eot?#iefix") format("embedded-opentype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.ttf") format("truetype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.woff") format("woff"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.woff2") format("woff2"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-regular/v1/webfont.svg") format("svg");
-    font-weight: 300;
-    font-style: normal;
+font-family: "nissan-brand-regular";
+src: url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Regular.eot");
+src: url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Regular.eot?#iefix") format("embedded-opentype"),
+url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Regular.woff") format("woff"),
+url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Regular.woff2") format('woff2'),
+url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Regular.ttf") format("truetype");
+font-weight: 400;
+font-style: normal
 }
+
 @font-face {
-    font-family: "nissan-regular";
-    src: url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.eot");
-    src: url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.eot?#iefix") format("embedded-opentype"), url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.ttf") format("truetype"), url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.woff") format("woff"), url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.woff2") format("woff2"), url("https://static.beta.dealer.com/v9/media/fonts/nissanag-regular/v1/webfont.svg") format("svg");
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: "nissan-bold";
-    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.eot");
-    src: url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.eot?#iefix") format("embedded-opentype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.ttf") format("truetype"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.woff") format("woff"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.woff2") format("woff2"), url("https://static.beta.dealer.com/v9/media/fonts/nissan-brand-bold/v1/webfont.svg") format("svg");
-    font-weight: 700;
-    font-style: normal;
+font-family: "nissan-bold";
+src: url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Bold.eot");
+src: url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Bold.eot?#iefix") format("embedded-opentype"),
+url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Bold.woff") format("woff"),
+url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Bold.woff2") format('woff2'),
+url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Bold.ttf") format("truetype");
+font-weight: 700;
+font-style:normal
 }
 
 
@@ -149,27 +152,31 @@ text-decoration: none;
 color: var(--white) !important;
 transition: all 0.2s ease-in-out 0s;
 }
-.acs-link-accen2t:hover {
+.acs-link-accent2:hover {
 text-decoration: underline;
 }
+
 
 .asc-link-accent-icon {
 display: inline-flex;
 -moz-osx-font-smoothing: grayscale;
 position: relative;
-padding-right: 1.6em;
-margin-right: .5em
+padding-right: 2.5em;
+margin-right: -1.1em
 }
 .asc-link-accent-icon::after {
 font-family: FontAwesome;
 font-size: .7857142857rem;
 content:"\f054";
-right: 0px;
+right: 15px;
 top: 50%;
 overflow: hidden;
-margin-top: -.9em;
+margin-top: -.95em;
 position: absolute;
+padding-right: .5em;
+padding-left: .5em;
 }
+
 
 
 /* BUTTONS: START */
@@ -325,7 +332,7 @@ color: var(--white);
 display: inline-flex;
 -moz-osx-font-smoothing: grayscale;
 position: relative;
-padding-right: 4%;
+padding-right: 4em;
 }
 .asc-nissan-icon::after {
 font-family: FontAwesome;
@@ -336,13 +343,17 @@ top: 52%;
 overflow: hidden;
 margin-top: -.5em;
 position: absolute;
+padding-right: .5em;
+padding-left: .5em;
 }
+
+
 
 .asc-nissan-icon-red {
 display: inline-flex;
 -moz-osx-font-smoothing: grayscale;
 position: relative;
-padding-right: 4%;
+padding-right: 4em;
 }
 .asc-nissan-icon-red::after {
 font-family: FontAwesome;
@@ -354,6 +365,8 @@ top: 52%;
 overflow: hidden;
 margin-top: -.5em;
 position: absolute;
+padding-right: .5em;
+padding-left: .5em;
 }
 /* Nissan Icon */
 
