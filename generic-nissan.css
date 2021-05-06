@@ -157,14 +157,14 @@ text-decoration: underline;
 }
 
 
-.asc-link-accent-icon {
+.acs-link-accent-icon {
 display: inline-flex;
 -moz-osx-font-smoothing: grayscale;
 position: relative;
 padding-right: 2.5em;
 margin-right: -1.1em
 }
-.asc-link-accent-icon::after {
+.acs-link-accent-icon::after {
 font-family: FontAwesome;
 font-size: .7857142857rem;
 content:"\f054";
@@ -328,13 +328,13 @@ color: var(--white);
 
 
 /* Nissan Icon */
-.asc-nissan-icon {
+.acs-nissan-icon {
 display: inline-flex;
 -moz-osx-font-smoothing: grayscale;
 position: relative;
 padding-right: 4em;
 }
-.asc-nissan-icon::after {
+.acs-nissan-icon::after {
 font-family: FontAwesome;
 font-size: .7857142857rem;
 content:"\f054";
@@ -349,13 +349,13 @@ padding-left: .5em;
 
 
 
-.asc-nissan-icon-red {
+.acs-nissan-icon-red {
 display: inline-flex;
 -moz-osx-font-smoothing: grayscale;
 position: relative;
 padding-right: 4em;
 }
-.asc-nissan-icon-red::after {
+.acs-nissan-icon-red::after {
 font-family: FontAwesome;
 font-size: .7857142857rem;
 content:"\f054";
