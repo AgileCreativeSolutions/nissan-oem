@@ -141,7 +141,7 @@ background-color: var(--dark3)
 /* Link Accent */
 .acs-link-accent {
 text-decoration: none;
-color: var(--black) !important;
+color: inherit !important;
 transition: all 0.2s ease-in-out 0s;
 }
 .acs-link-accent:hover {
@@ -149,10 +149,20 @@ text-decoration: underline;
 }
 .acs-link-accent2 {
 text-decoration: none;
-color: var(--white) !important;
+color: inherit !important;
 transition: all 0.2s ease-in-out 0s;
 }
 .acs-link-accent2:hover {
+text-decoration: underline;
+}
+.acs-link-accent3 {
+color: var(--accent);
+text-decoration: none;
+transition: all 0.2s ease-in-out 0s;
+}
+
+.acs-link-accent3:hover {
+color: var(--accent2);
 text-decoration: underline;
 }
 
