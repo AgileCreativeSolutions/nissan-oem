@@ -33,8 +33,8 @@ font-style:normal
 
 
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
-font-family: "nissan-bold", sans-serif;
-font-weight: 700;
+font-family: "nissan-light", "nissan-brand-regular", sans-serif;
+font-weight: 300;
 line-height: 1.2;
 }
 
