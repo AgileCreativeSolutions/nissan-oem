@@ -1,3 +1,4 @@
+/* OEM Font Embed */
 @font-face {
 font-family: "nissan-light";
 src: url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Light.eot");
@@ -30,8 +31,20 @@ url("https://AgileCreativeSolutions.github.io/NissanBrandFont/NissanBrand-Bold.t
 font-weight: 700;
 font-style:normal
 }
+/* OEM Font Embed */
 
 
+
+/* OEM Font */
+.acs-wrapper { 
+font-family: "nissan-brand-regular", sans-serif;
+font-weight: 400;
+}
+/* OEM Font */
+
+
+
+/* Heading Tags */
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: "nissan-light", "nissan-brand-regular", sans-serif;
 font-weight: 300;
@@ -88,16 +101,27 @@ font-size: 1.4rem !important;
 font-size: 1.2rem !important;
 }
 }
+/* Heading Tags */
 
 
-.acs-wrapper { 
-font-family: "nissan-brand-regular", sans-serif
+
+/* OEM Font Variables */
+.nissan-brand-lt {
+font-family: "nissan-light" !important; 
+font-weight: 300 !important;
+}
+
+.nissan-brand-rg {
+font-family: "nissan-brand-regular" !important;
+font-weight: 400 !important;
 }
 
 .acs-bold {
 font-family: var(--bold-font);   
 font-weight: 700;
 }
+/* OEM Font Variables */
+
 
 
 /* Variables */
@@ -115,16 +139,11 @@ font-weight: 700;
 --dark3: #343434;
 --bold-font: "nissan-bold", sans-serif;
 }
+/* Variables */
 
 
 
 /* Text Colors */
-.acs-black {
-color: var(--black)
-}
-.acs-white {
-color: var(--white)
-}
 .acs-gray {
 color: var(--gray)
 }
@@ -146,6 +165,8 @@ color: var(--dark2)
 .acs-dark3 {
 color: var(--dark3)
 }
+/* Text Colors */
+
 
 
 /* Accent Colors */
@@ -155,38 +176,57 @@ color: var(--accent)
 .acs-accent2 {
 color: var(--accent2)
 }
+/* Accent Colors */
 
 
 
 /* BG Colors */
 .acs-bg-accent {
-background-color: var(--accent)
+--acs-bg-opacity: 1;
+background-color: var(--accent);
+background-color: rgba(194,0,47, var(--acs-bg-opacity))
 }
 .acs-bg-accent2 {
-background-color: var(--accent2)
+--acs-bg-opacity: 1;
+background-color: var(--accent2);
+background-color: rgba(142,1,34, var(--acs-bg-opacity))
 }
 .acs-bg-gray {
-background-color: var(--gray)
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(246,246,246, var(--acs-bg-opacity))
 }
 .acs-bg-gray2 {
-background-color: var(--gray2)
+--acs-bg-opacity: 1;
+background-color: var(--gray2);
+background-color: rgba(238,238,238, var(--acs-bg-opacity))
 }
 .acs-bg-gray3 {
-background-color: var(--gray3)
+--acs-bg-opacity: 1;
+background-color: var(--gray3);
+background-color: rgba(196,197,196, var(--acs-bg-opacity))
 }
 .acs-bg-gray4 {
-background-color: var(--gray4)
+--acs-bg-opacity: 1;
+background-color: var(--gray4);
+background-color: rgba(241,241,241, var(--acs-bg-opacity))
 }
 .acs-bg-dark {
-background-color: var(--dark)
+--acs-bg-opacity: 1;
+background-color: var(--dark);
+background-color: rgba(45,45,45, var(--acs-bg-opacity))
 }
 .acs-bg-dark2 {
-background-color: var(--dark2)
+--acs-bg-opacity: 1;
+background-color: var(--dark2);
+background-color: rgba(102,102,102, var(--acs-bg-opacity))
 }
 .acs-bg-dark3 {
-background-color: var(--dark3)
+--acs-bg-opacity: 1;
+background-color: var(--dark3);
+background-color: rgba(52,52,52, var(--acs-bg-opacity))
 }
-
+/* BG Colors */
 
 
 
@@ -199,6 +239,7 @@ transition: all 0.2s ease-in-out 0s;
 .acs-link-accent:hover {
 text-decoration: underline;
 }
+
 .acs-link-accent2 {
 text-decoration: none;
 color: inherit !important;
@@ -207,18 +248,21 @@ transition: all 0.2s ease-in-out 0s;
 .acs-link-accent2:hover {
 text-decoration: underline;
 }
+
 .acs-link-accent3 {
 color: var(--accent);
 text-decoration: none;
 transition: all 0.2s ease-in-out 0s;
 }
-
 .acs-link-accent3:hover {
 color: var(--accent2);
 text-decoration: underline;
 }
+/* Link Accent */
 
 
+
+/* Link Accent Icon */
 .acs-link-accent-icon {
 display: inline-flex;
 -moz-osx-font-smoothing: grayscale;
@@ -231,13 +275,14 @@ font-family: FontAwesome;
 font-size: .7857142857rem;
 content:"\f054";
 right: 15px;
-top: 50%;
+top: 20%;
 overflow: hidden;
-margin-top: -.95em;
+margin-top: 0;
 position: absolute;
 padding-right: .5em;
 padding-left: .5em;
 }
+/* Link Accent Icon */
 
 
 
@@ -408,9 +453,11 @@ position: absolute;
 padding-right: .5em;
 padding-left: .5em;
 }
+/* Nissan Icon */
 
 
 
+/* Nissan Icon Red */
 .acs-nissan-icon-red {
 display: inline-flex;
 -moz-osx-font-smoothing: grayscale;
@@ -430,7 +477,7 @@ position: absolute;
 padding-right: .5em;
 padding-left: .5em;
 }
-/* Nissan Icon */
+/* Nissan Icon Red */
 
 
 
@@ -438,3 +485,4 @@ padding-left: .5em;
 .page-header.responsive .value-statement {
 margin: -7px 0 0 150px !important;
 }
+/* DDC MASTHEAD TAGLINE TEMPLATE FIX */
